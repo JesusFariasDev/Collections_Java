@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class ExampleSortingList {
+public class SortingListExample {
     public static void main(String[] args) {
 
         List<Cat> myCats = new ArrayList<>(){{

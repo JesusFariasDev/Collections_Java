@@ -43,7 +43,7 @@ public class CollectionsExamples {
         Iterator<Double> iterator = notas.iterator();
 
         Double soma = 0d;
-
+        // hasNext está verificando se há um próximo elemento para fazer iteração
         while(iterator.hasNext()){
             Double next = iterator.next();
             soma += next;
@@ -64,7 +64,7 @@ public class CollectionsExamples {
 
         System.out.println("Remova as notas menores que 7 e exiba a lista: ");
         Iterator<Double> iterator1 = notas.iterator();
-
+        // hasNext está verificando se há um próximo elemento para fazer iteração
         while(iterator1.hasNext()) {
             Double next = (Double)iterator1.next();
             if (next < 7.0) {
